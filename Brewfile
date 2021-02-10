@@ -53,6 +53,7 @@ brew 'yarn'
 
 # Docker
 brew 'snyk'
+brew 'hadolint'
 
 # GIT
 brew 'tig'
