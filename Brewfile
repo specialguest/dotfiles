@@ -5,6 +5,7 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap "homebrew/core"
 tap 'blackfireio/homebrew-blackfire'
+tap 'snyk/tap'
 
 # Set arguments for all 'brew cask install' commands
 cask_args appdir: "/Applications"
@@ -49,6 +50,9 @@ brew 'node'
 brew 'typescript'
 
 brew 'yarn'
+
+# Docker
+brew 'snyk'
 
 # GIT
 brew 'tig'
