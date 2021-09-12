@@ -11,6 +11,7 @@ tap 'snyk/tap'
 cask_args appdir: "/Applications"
 
 # 'brew install'
+brew 'act'
 brew 'ansible'
 brew 'coreutils'
 brew 'ffmpeg'
