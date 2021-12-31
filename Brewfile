@@ -14,6 +14,7 @@ cask_args appdir: "/Applications"
 brew 'act'
 brew 'ansible'
 brew 'coreutils'
+brew 'docker-slim'
 brew 'ffmpeg'
 brew 'gcc'
 brew 'gpg'
