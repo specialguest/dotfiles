@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 tap "homebrew/core"
 tap 'blackfireio/homebrew-blackfire'
 tap 'snyk/tap'
+tap 'symfony-cli/homebrew-tap'
 
 # Set arguments for all 'brew cask install' commands
 cask_args appdir: "/Applications"
@@ -45,6 +46,7 @@ brew 'php@8.1'
 brew 'php-code-sniffer'
 brew 'php-cs-fixer'
 brew 'phpstan'
+brew 'symfony-cli'
 
 brew 'node'
 brew 'typescript'
