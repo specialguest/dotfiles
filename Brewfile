@@ -23,14 +23,12 @@ brew 'gpg'
 brew 'htop'
 brew 'httpie'
 brew 'jq'
-brew 'mysql'
 brew 'mas'
 brew 'ncdu'
 brew 'nmap'
 brew 'prettier'
 brew 'pv'
 brew 'redis-cli'
-brew 'speedtest-cli'
 brew 'ssh-copy-id'
 brew 'terraform'
 brew 'tldr'
@@ -45,15 +43,13 @@ brew 'z'
  
 # DEV
 brew 'composer'
-brew 'php@8.1'
+brew 'php@8.2'
 brew 'php-code-sniffer'
 brew 'php-cs-fixer'
 brew 'phpstan'
 
 brew 'node'
 brew 'typescript'
-
-brew 'yarn'
 
 # Docker
 brew 'snyk'
@@ -69,7 +65,7 @@ brew 'gti'
 brew 'gitui'
 
 # 'brew cask install'
-cask '1password'
+# cask '1password'
 cask '8bitdo-ultimate-software'
 cask 'another-redis-desktop-manager'
 cask 'brave-browser'
@@ -84,7 +80,8 @@ cask 'imageoptim'
 cask 'insomnia'
 cask 'iterm2-beta'
 cask 'microsoft-office'
-cask 'mysqlworkbench'
+# cask 'mysqlworkbench'
+cask 'obsidian'
 cask 'onyx'
 cask 'pdfsam-basic'
 cask 'pdfshaver'
@@ -98,12 +95,12 @@ cask 'visual-studio-code'
 
 # Drivers
 cask 'synologyassistant'
-cask 'xbox360-controller-driver-unofficial'
+# cask 'xbox360-controller-driver-unofficial'
 
 # Mac AppStore
 mas 'Sequel Ace', id: 1518036000
 mas 'Telegram', id: 747648890
-mas 'Twitterific', id: 1289378661
+# mas 'Twitterific', id: 1289378661
 
 # 'whalebrew install'
 # whalebrew "whalebrew/wget"
