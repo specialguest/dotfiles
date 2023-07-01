@@ -99,6 +99,7 @@ cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'the-unarchiver'
 cask 'transmission'
+cask 'vidl'
 cask 'vlc'
 cask 'visual-studio-code'
 
