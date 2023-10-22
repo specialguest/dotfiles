@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-drivers'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap "homebrew/core"
@@ -18,7 +17,6 @@ brew 'act'
 brew 'ansible'
 brew 'coreutils'
 brew 'docker'
-brew 'docker-slim'
 brew 'ffmpeg'
 brew 'gcc'
 brew 'git-filter-repo'
@@ -38,7 +36,6 @@ brew 'tldr'
 brew 'tmux'
 brew 'trash'
 brew 'vegeta'
-brew 'whalebrew'
 brew 'wget'
 brew 'wrk'
 brew 'youtube-dl'
@@ -69,7 +66,7 @@ brew 'gitui'
 
 # 'brew cask install'
 # cask '1password'
-cask '8bitdo-ultimate-software'
+# cask '8bitdo-ultimate-software'
 cask 'another-redis-desktop-manager'
 cask 'bitwarden'
 cask 'brave-browser'
@@ -94,7 +91,6 @@ cask 'pdfsam-basic'
 cask 'pdfshaver'
 cask 'pgadmin4'
 cask 'phpstorm'
-cask 'postman'
 cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'the-unarchiver'
@@ -110,7 +106,6 @@ cask 'synologyassistant'
 # Mac AppStore
 mas 'Sequel Ace', id: 1518036000
 mas 'Telegram', id: 747648890
-# mas 'Twitterific', id: 1289378661
 
 # 'whalebrew install'
 # whalebrew "whalebrew/wget"
